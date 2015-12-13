@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Whelam]]></title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/code/atom.xml" rel="self"/>
   <link href="http://whelamc.me/code/"/>
-  <updated>2015-12-13T06:38:48.103Z</updated>
+  <updated>2015-12-13T07:37:45.321Z</updated>
   <id>http://whelamc.me/code/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://whelamc.me/code/2015/12/13/test/"/>
+    <id>http://whelamc.me/code/2015/12/13/test/</id>
+    <published>2015-12-13T07:37:51.027Z</published>
+    <updated>2015-12-13T07:37:45.321Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[New]]></title>
