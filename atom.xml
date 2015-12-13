@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Whelam]]></title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/code/atom.xml" rel="self"/>
   <link href="http://code.whelamc.me/"/>
   <updated>2015-12-13T07:43:32.167Z</updated>
   <id>http://code.whelamc.me/</id>
