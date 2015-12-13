@@ -4,7 +4,7 @@
   
   <link href="/code/atom.xml" rel="self"/>
   <link href="http://code.whelamc.me/"/>
-  <updated>2015-12-13T07:43:32.167Z</updated>
+  <updated>2015-12-13T06:38:48.103Z</updated>
   <id>http://code.whelamc.me/</id>
   
   <author>
@@ -13,25 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[test]]></title>
-    <link href="http://code.whelamc.me/2015/12/13/test/"/>
-    <id>http://code.whelamc.me/2015/12/13/test/</id>
-    <published>2015-12-13T07:43:32.201Z</published>
-    <updated>2015-12-13T07:43:32.167Z</updated>
-    <content type="html"><![CDATA[<h2 id="test_test">test test</h2><p>test testtest testtest testtest testtest testtest testtest test</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="test_test">test test</h2><p>test testtest testtest testtest testtest testtest testtest test</p>
-]]>
-    </summary>
-    
-      <category term="hexo" scheme="http://code.whelamc.me/tags/hexo/"/>
-    
-      <category term="basic" scheme="http://code.whelamc.me/categories/basic/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[New]]></title>
