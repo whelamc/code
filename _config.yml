@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: (•̀ᴗ•́)و ̑̑ Whelam
+title: Whelam
 subtitle:
-description: Whelam blog
+description: 人生夢一場革命至蒼老
 author: Whelam
-language: en
-timezone: CN
+language: zh-hk
+timezone: Asia/Hong_Kong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://code.whelamc.me/
-root: /
+url: http://whelamc.me/code
+root: /code/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -60,6 +60,8 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins:
@@ -72,7 +74,7 @@ feed:
   limit: 20
 
 ## Themes: http://hexo.io/themes/
-theme: coverman
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -80,4 +82,23 @@ deploy:
   type: git
   repo: git@github.com:whelamc/code.git
   branch: gh-pages
+
+
+
+# Swiftype Search API Key
+swiftype_key: nqWrJ4n5ynXdPJhyJvAJ
+
+# Baidu Analytics ID
+baidu_analytics: 98cb254db8823e63e115b764b484a0ba
+
+# Duoshuo ShortName
+duoshuo_shortname: whelam
+
+# Specify the date when the site was setup
+since: 2015
+
+
+
+
+
 
