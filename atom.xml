@@ -4,7 +4,7 @@
   
   <link href="/code/atom.xml" rel="self"/>
   <link href="http://whelamc.me/code/"/>
-  <updated>2015-12-23T03:29:03.474Z</updated>
+  <updated>2015-12-23T03:35:49.931Z</updated>
   <id>http://whelamc.me/code/</id>
   
   <author>
@@ -19,9 +19,8 @@
     <link href="http://whelamc.me/code/2015/12/23/windows/"/>
     <id>http://whelamc.me/code/2015/12/23/windows/</id>
     <published>2015-12-23T02:00:01.000Z</published>
-    <updated>2015-12-23T03:29:03.474Z</updated>
-    <content type="html"><![CDATA[<p>#Windows中删除路径太长目录及文件</p>
-<p>问题原因： 因为使用了yo自动构建 目录下大批node_modules目录嵌套太深<br>造成了问题Windows中删除路径太长目录及文件 无法删除</p>
+    <updated>2015-12-23T03:35:49.931Z</updated>
+    <content type="html"><![CDATA[<h1 id="Windows中删除路径太长目录及文件">Windows中删除路径太长目录及文件</h1><p>问题原因： 因为使用了yo自动构建 目录下大批node_modules目录嵌套太深<br>造成了问题Windows中删除路径太长目录及文件 无法删除</p>
 <p>解决方法： 管理员权限打开cmd </p>
 <ol>
 <li>新建空白目录，如D:\node\1；  </li>
@@ -30,11 +29,8 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>#Windows中删除路径太长目录及文件</p>
-<p>问题原因： 因为使用了yo自动构建 目录下大批node_modules目录嵌套太深<br>造成了问题Windows中删除路径太长目录及文件 无法删除</p>
-<p>解决方法： 管理员权限打开cmd </p>
-<ol>
-]]>
+    <![CDATA[<h1 id="Windows中删除路径太长目录及文件">Windows中删除路径太长目录及文件</h1><p>问题原因： 因为使用了yo自动构建 目录下大批node_modules目录嵌套太深<br>造成了问题Windows中删除路径太长目录及文件 无法删除</p>
+<p>解决]]>
     </summary>
     
       <category term="windows" scheme="http://whelamc.me/code/tags/windows/"/>
@@ -48,9 +44,8 @@
     <link href="http://whelamc.me/code/2015/12/23/gyperr/"/>
     <id>http://whelamc.me/code/2015/12/23/gyperr/</id>
     <published>2015-12-23T02:00:00.000Z</published>
-    <updated>2015-12-23T03:28:45.775Z</updated>
-    <content type="html"><![CDATA[<p>#问题产生</p>
-<pre><code>MSBUILD : error MSB3411 : Could not <span class="operator"><span class="keyword">load</span> the Visual <span class="keyword">C</span>++ component <span class="string">"VCBuild.exe"</span>. 
+    <updated>2015-12-23T03:35:37.626Z</updated>
+    <content type="html"><![CDATA[<h1 id="问题产生">问题产生</h1><pre><code>MSBUILD : error MSB3411 : Could not <span class="operator"><span class="keyword">load</span> the Visual <span class="keyword">C</span>++ component <span class="string">"VCBuild.exe"</span>. 
 <span class="keyword">If</span> the component <span class="keyword">is</span> <span class="keyword">not</span> installed, either <span class="number">1</span><span class="keyword">install</span> the Microsoft Windows SDK <span class="keyword">for</span>
 Windows <span class="keyword">Server</span> <span class="number">2008</span> <span class="keyword">and</span> .NET Framework <span class="number">3.5</span>, <span class="keyword">or</span> <span class="keyword">install</span> Microsoft Visual Studio
 <span class="number">2008.</span>[/<span class="keyword">path</span>/]
@@ -59,19 +54,16 @@ gyp ERR! <span class="keyword">build</span> <span class="keyword">error</span>
 
 ......</span>
 </code></pre><p><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20151223111612_zpso7llnylp.png" alt="">    </p>
-<p>#问题所在</p>
-<p>从报错log当中，可以看到因为的VC的环境出现问题，本机的环境从2008~2015 VC环境都有装上<br>，.NET Framework的环境也装上了 但是为何还会报错呢，之前我的2015VC环境是独立装上的，<br>其实应该是缺少了MSB3411这个环境的包。</p>
+<h1 id="问题所在">问题所在</h1><p>从报错log当中，可以看到因为的VC的环境出现问题，本机的环境从2008~2015 VC环境都有装上<br>，.NET Framework的环境也装上了 但是为何还会报错呢，之前我的2015VC环境是独立装上的，<br>其实应该是缺少了MSB3411这个环境的包。</p>
 <p><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20151223111637_zpshnzb3ghn.png" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20151223111633_zpst4exdd3d.png" alt=""></p>
-<p>#问题解决</p>
-<p>所以我从<a href="https://www.visualstudio.com/downloads/download-visual-studio-vs" target="_blank" rel="external">https://www.visualstudio.com/downloads/download-visual-studio-vs</a> 下载整套Visual Studio，<br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20151223111626_zpswnrowjzt.png" alt=""><br>安装过程中，只勾选编程语言就可以了，然后基本上解决了我的问题，虽然我在安装node相关的依赖包的时候，<br>还是会出现 </p>
+<h1 id="问题解决">问题解决</h1><p>所以我从<a href="https://www.visualstudio.com/downloads/download-visual-studio-vs" target="_blank" rel="external">https://www.visualstudio.com/downloads/download-visual-studio-vs</a> 下载整套Visual Studio，<br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20151223111626_zpswnrowjzt.png" alt=""><br>安装过程中，只勾选编程语言就可以了，然后基本上解决了我的问题，虽然我在安装node相关的依赖包的时候，<br>还是会出现 </p>
 <blockquote>
 <p>在此解决方案中一次生成一个项目。若要启用并行生成，请添加“/m”开关。    </p>
 </blockquote>
 <p>但是问题MSBULD error 都变成了黄色字符，且在过程中看到一些utf 或者转化32的字符，我相信VC2015在<br>x64 和 x86 之间需要进行转换，才产生了这样的问题，基本这些问题都出现在64位电脑上面 </p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>#问题产生</p>
-<pre><code>MSBUILD : error MSB3411 : Could not <span class="operator"><span class="keyword">load</span> the Visual <span class=]]>
+    <![CDATA[<h1 id="问题产生">问题产生</h1><pre><code>MSBUILD : error MSB3411 : Could not <span class="operator"><span class="keyword">load</span> the Visual <s]]>
     </summary>
     
       <category term="node-gyp" scheme="http://whelamc.me/code/tags/node-gyp/"/>
