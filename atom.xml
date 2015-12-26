@@ -4,7 +4,7 @@
   
   <link href="/code/atom.xml" rel="self"/>
   <link href="http://whelamc.me/code/"/>
-  <updated>2015-12-23T03:35:49.931Z</updated>
+  <updated>2015-12-26T06:38:22.851Z</updated>
   <id>http://whelamc.me/code/</id>
   
   <author>
@@ -13,6 +13,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[運營商定制手機WIFI和藍牙功能被禁止解決方案]]></title>
+    <link href="http://whelamc.me/code/2015/12/26/phonewifi/"/>
+    <id>http://whelamc.me/code/2015/12/26/phonewifi/</id>
+    <published>2015-12-26T06:27:21.000Z</published>
+    <updated>2015-12-26T06:38:22.851Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/network_protection_zpsppypdzvr.png" alt=""></p>
+<h2 id="問題出現">問題出現</h2><blockquote>
+<p>手機在不插入移動Sim卡的時，無法開啟WIFI與藍牙功能。手機顯示為：由於SIM卡未插入，功能停止使用。</p>
+</blockquote>
+<h2 id="機身狀態">機身狀態</h2><ul>
+<li>型號：Samsung GALAXY Note Ⅱ  </li>
+<li>版本：GT-N7100GSMH 香港移動定制單卡版本</li>
+<li>SD卡：N/A</li>
+<li>SIM卡：N/A</li>
+<li>生產年份：2012年</li>
+<li>系統內核：港版 4.1.1 N7100ZSALJ7</li>
+<li>ROOT：未進行</li>
+</ul>
+<h2 id="刷機過程">刷機過程</h2><p>剛開始我認為可能是手機系統內核的問題，相信可以直接刷機解決。<br>然後在電腦上裝上了 “刷機精靈” ，但是ROOT不行，需要網上下了個KINGROOT進行root<br>我使用了這裡的教程進行刷機：<a href="http://tieba.baidu.com/p/3229598854" target="_blank" rel="external">http://tieba.baidu.com/p/3229598854</a><br>使用了Odin3進行刷機，我刷過了港版的4.1.1，然後再刷了港版的4.3，再然後又刷了歐版的4.3。<br>結果還是一樣，刷機沒用，然後否定了軟件系統內核的問題，轉移到硬件上面。</p>
+<h2 id="拆機過程">拆機過程</h2><p>這裡我拍了照片，如圖<br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/31488408033542738_zpsstbbblqf.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/909263646465159277_zpsxi5ag6vp.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/899374004780989897_zpsavdysrej.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/4337658737637046_zpscgq6lsx8.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/412926303675790507_zps1amy9pyl.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/647136389602434560_zps2oh49c6x.jpg" alt=""><br>看到了嗎，就是那塊灰色的小東西，它把信號都擋住了，所以才開不了，可惡的移動運營商。</p>
+<h2 id="問題解決">問題解決</h2><p>然後問題就完全解決了，WIFI和藍牙都用得好好的。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/network_protection_zpsppypdzvr.png" alt=""></p>
+<h2 id="問題出現">問題出現</h2]]>
+    </summary>
+    
+      <category term="android" scheme="http://whelamc.me/code/tags/android/"/>
+    
+      <category term="note2" scheme="http://whelamc.me/code/tags/note2/"/>
+    
+      <category term="wifi" scheme="http://whelamc.me/code/tags/wifi/"/>
+    
+      <category term="phone" scheme="http://whelamc.me/code/categories/phone/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Windows中删除路径太长目录及文件]]></title>
