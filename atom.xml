@@ -4,7 +4,7 @@
   
   <link href="/code/atom.xml" rel="self"/>
   <link href="http://whelamc.me/code/"/>
-  <updated>2015-12-26T06:38:22.851Z</updated>
+  <updated>2016-01-26T06:39:51.621Z</updated>
   <id>http://whelamc.me/code/</id>
   
   <author>
@@ -13,6 +13,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[换壳日常]]></title>
+    <link href="http://whelamc.me/code/2016/01/26/phonescreen/"/>
+    <id>http://whelamc.me/code/2016/01/26/phonescreen/</id>
+    <published>2016-01-26T06:27:21.000Z</published>
+    <updated>2016-01-26T06:39:51.621Z</updated>
+    <content type="html"><![CDATA[<h1 id="SAMSUNG_Galaxy_S3_i9300_换壳的过程">SAMSUNG Galaxy S3 i9300 换壳的过程</h1><p>自己的小三白色外壳已经掉色，外框在掉漆，所以自己被迫要自己来换掉外壳了，过程中才发现我把内屏搞碎了<br>内屏触摸屏还有外框都是粘合的，普通工具发开不了，只能网上再买个总成回来了，还有主板拆出来都是发霉的，<br>尾插因为常碰到水所以也发霉了，怪不得我之前充电这么慢，所以自己买了个尾插自己换上去，又发现电焊焊补了<br>这种，只能去找外面的人换了（40换了尾插，可以充电了但是USB数据不能用，又加了60再换一次，终于可以了）</p>
+<p><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/190684885067440365_zpsyjsyprjl.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/212727822564061811_zpsojfg1xja.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/456303237407572934_zps5qpef3by.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/20160106_193039_zpsmq0npdp3.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/20160106_194658_zpsyprwr20x.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/533575425100441395_zpsj8heps6y.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/709742435440562849_zpsfu8gqy4u.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20160108110022_zps2obmvsyg.jpg" alt=""><br><img src="http://i979.photobucket.com/albums/ae279/guangdouzi/blog/QQ20160108101524_zpsvwj291ws.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="SAMSUNG_Galaxy_S3_i9300_换壳的过程">SAMSUNG Galaxy S3 i9300 换壳的过程</h1><p>自己的小三白色外壳已经掉色，外框在掉漆，所以自己被迫要自己来换掉外壳了，过程中才发现我把内屏搞碎了<br>内屏触摸屏还有外框都是]]>
+    </summary>
+    
+      <category term="samsung" scheme="http://whelamc.me/code/tags/samsung/"/>
+    
+      <category term="screen" scheme="http://whelamc.me/code/tags/screen/"/>
+    
+      <category term="phone" scheme="http://whelamc.me/code/categories/phone/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[運營商定制手機WIFI和藍牙功能被禁止解決方案]]></title>
